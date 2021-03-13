@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.centelon.finnate.api.v1.domain;
+package com.centelon.finnate.template.api.v1.domain;
 
 import java.util.Objects;
 import org.apache.fineract.cn.lang.validation.constraints.ValidIdentifier;

@@ -18,7 +18,7 @@
  */
 package com.centelon.finnate.template.api.v1.client;
 
-import com.centelon.finnate.api.v1.domain.Sample;
+import com.centelon.finnate.template.api.v1.domain.Sample;
 import java.util.List;
 import org.apache.fineract.cn.api.annotation.ThrowsException;
 import org.apache.fineract.cn.api.util.CustomFeignClientsConfiguration;

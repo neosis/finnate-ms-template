@@ -21,7 +21,7 @@ package com.centelon.finnate.template.service.rest;
 import com.centelon.finnate.template.service.ServiceConstants;
 import com.centelon.finnate.template.service.internal.command.InitializeServiceCommand;
 import com.centelon.finnate.template.api.v1.PermittableGroupIds;
-import com.centelon.finnate.api.v1.domain.Sample;
+import com.centelon.finnate.template.api.v1.domain.Sample;
 import com.centelon.finnate.template.service.internal.command.SampleCommand;
 import com.centelon.finnate.template.service.internal.service.SampleService;
 import java.util.List;

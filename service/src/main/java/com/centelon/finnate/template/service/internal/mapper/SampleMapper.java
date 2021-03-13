@@ -18,7 +18,7 @@
  */
 package com.centelon.finnate.template.service.internal.mapper;
 
-import com.centelon.finnate.api.v1.domain.Sample;
+import com.centelon.finnate.template.api.v1.domain.Sample;
 import com.centelon.finnate.template.service.internal.repository.SampleJpaEntity;
 
 import java.util.ArrayList;

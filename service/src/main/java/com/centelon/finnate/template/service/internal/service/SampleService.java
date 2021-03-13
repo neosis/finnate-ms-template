@@ -18,7 +18,7 @@
  */
 package com.centelon.finnate.template.service.internal.service;
 
-import com.centelon.finnate.api.v1.domain.Sample;
+import com.centelon.finnate.template.api.v1.domain.Sample;
 import com.centelon.finnate.template.service.internal.mapper.SampleMapper;
 import com.centelon.finnate.template.service.internal.repository.SampleJpaEntityRepository;
 import org.springframework.beans.factory.annotation.Autowired;

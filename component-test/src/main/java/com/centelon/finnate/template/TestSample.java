@@ -19,7 +19,7 @@
 package com.centelon.finnate.template;
 
 import com.centelon.finnate.template.api.v1.client.TemplateManager;
-import com.centelon.finnate.api.v1.domain.Sample;
+import com.centelon.finnate.template.api.v1.domain.Sample;
 import com.centelon.finnate.template.api.v1.events.EventConstants;
 import com.centelon.finnate.template.service.TemplateConfiguration;
 import java.util.List;
@@ -58,10 +58,10 @@ public class TestSample extends SuiteTestEnvironment {
 
   @Configuration
   @EnableEventRecording
-  @EnableFeignClients(basePackages = {"org.apache.fineract.cn.template.api.v1.client"})
+  @EnableFeignClients(basePackages = {"com.centelon.finnate.template.api.v1.client"})
   @RibbonClient(name = APP_NAME)
   @Import({TemplateConfiguration.class})
-  @ComponentScan("org.apache.fineract.cn.template.listener")
+  @ComponentScan("com.centelon.finnate.template.listener")
   public static class TestConfiguration {
     public TestConfiguration() {
       super();
