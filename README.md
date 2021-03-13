@@ -69,5 +69,6 @@ The versioning layout is {MAJOR}.{MINOR}.{PATCH}-{INDICATOR}[.{PATCH}]. Only mil
 1.5.7.RC.2  
 2.0.0.RELEASE
 
-## License
-See [LICENSE](LICENSE) file.
+[comment]: <> (## License)
+
+[comment]: <> (See [LICENSE]&#40;LICENSE&#41; file.)
