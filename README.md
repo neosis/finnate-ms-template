@@ -1,15 +1,17 @@
-# Apache Fineract CN Template [![Build Status](https://api.travis-ci.com/apache/fineract-cn-template.svg?branch=develop)](https://travis-ci.com/apache/fineract-cn-template)
+# Centelon Finnate Microservice Template 
 
-This project provides a template layout for all Apache Fineract CN services.
+[comment]: <> ([![Build Status]&#40;https://api.travis-ci.com/apache/fineract-cn-template.svg?branch=develop&#41;]&#40;https://travis-ci.com/apache/fineract-cn-template&#41;)
+
+This project provides a template layout for all Centelon's Finnate Microservices.
 
 ## Abstract
-Apache Fineract CN is an application framework for digital financial services, a system to support nationwide and cross-national financial transactions and help to level and speed the creation of an inclusive, interconnected digital economy for every nation in the world.
+Finnate suite of products by Centelon
 
 ## Steps needed to turn the template project into a real project
 
 1.  Git clone template into {project name} folder
 
-        git clone https://github.com/apache/fineract-cn-template.git {project name}
+        git clone https://github.com/neosis/finnate-ms-template.git {project name}
 
 2.  Delete _.git_
 
@@ -23,11 +25,11 @@ Apache Fineract CN is an application framework for digital financial services, a
 
         gradle wrapper
 
-6.  Open all module specific build.gradle files (api, service, and component-test) and replace value of _group_ with org.apache.fineract.cn.{project name}
+6.  Open all module specific build.gradle files (api, service, and component-test) and replace value of _group_ with com.centelon.finnate.{project name}
 
 7.  Import project into IDE
 
-8.  Rename all org.apache.fineract.cn.template packages to org.apache.fineract.cn.{project name}
+8.  Rename all com.centelon.finnate.template packages to com.centelon.finnate.{project name}
 
 9.  Open _SampleRestConfiguration_ and _SampleServiceConfiguration_, adjust @ComponentScan to reflect the new package name
 
@@ -43,9 +45,11 @@ Apache Fineract CN is an application framework for digital financial services, a
 
 15. Happy coding! ; o) 
 
-16. For Travis-ci.com continuous integration server to start uploading artifacts to Artifactory
- you need to put into .travis.yml a password that is encrypted with public key of https://travis-ci.com/apache/fineract-cn-newRepositoryNameInGithub
-See [project wiki](https://cwiki.apache.org/confluence/display/FINERACT/Fineract+CN+Project+Structure).
+[comment]: <> (16. For Travis-ci.com continuous integration server to start uploading artifacts to Artifactory)
+
+[comment]: <> ( you need to put into .travis.yml a password that is encrypted with public key of https://travis-ci.com/apache/fineract-cn-newRepositoryNameInGithub)
+
+[comment]: <> (See [project wiki]&#40;https://cwiki.apache.org/confluence/display/FINERACT/Fineract+CN+Project+Structure&#41;.)
 
 
 ## Versioning
